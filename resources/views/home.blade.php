@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-    <title>Electrónicos S.A.</title>
+    <title>Translate Life</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--CDNs-->
@@ -12,12 +12,12 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
     <script src="https://kit.fontawesome.com/85601d370d.js" crossorigin="anonymous"></script>
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="globe.png">
 </head>
 <body>
 <!-- Barra de Navegacion -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
-    <a class="navbar-brand" href="/"> <i class="fas fa-microchip"></i> ELECTRÓNICOS S.A.</a>
+    <a class="navbar-brand" href="/"> <i class="fa fa-globe" aria-hidden="true"></i>  TRANSLATE LIFE</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -37,17 +37,13 @@
         <ol class="carousel-indicators">
             <li data-target="#carouselImage" data-slide-to="0" class="active"></li>
             <li data-target="#carouselImage" data-slide-to="1"></li>
-            <li data-target="#carouselImage" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner" id="imageCarusel">
             <div class="carousel-item active">
-                <img src="img/carrusel1.jpg" class="d-block w-100" alt="..."/>
+                <img src="img/logo.png" class="d-block w-100" alt="..."/>
             </div>
             <div class="carousel-item">
-                <img src="img/carrusel2.jpg" class="d-block w-100" alt="..."/>
-            </div>
-            <div class="carousel-item">
-                <img src="img/carrusel3.jpg" class="d-block w-100" alt="..."/>
+                <img src="img/logo.png" class="d-block w-100" alt="..."/>
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselImage" role="button" data-slide="prev">
@@ -122,7 +118,7 @@
 </div>
 
 <div id="copyRight">
-    <center>© Copyright ELECTRÓNICOS S.A.</center>
+    <center>© Copyright Grupo Barrios 1</center>
 </div>
 
 @include('sweetalert::alert')
